@@ -1,21 +1,22 @@
-# [aws]
-# disabled = true
+# ~/.config/starship.toml
 
-# [directory]
-# truncate_to_repo = false
+[aws]
+disabled = true
 
-# [directory.substitutions]
-# "~/github" = "github.com"
+[directory]
+truncate_to_repo = true
 
-# [gcloud]
-# disabled = true
+[directory.substitutions]
+"~/github" = "github.com"
 
 [git_branch]
 symbol = " "
 
-# [nodejs]
-# format = "using [$symbol$version]($style) "
+[nodejs]
+disabled = true
+format = "using [$symbol$version]($style) "
 
 [package]
+disabled = true
 format = "[$symbol$version]($style) "
 symbol = " "
