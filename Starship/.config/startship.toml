@@ -13,7 +13,7 @@ truncate_to_repo = true
 symbol = " "
 
 [nodejs]
-disabled = true
+disabled = false
 format = "using [$symbol$version]($style) "
 
 [package]
