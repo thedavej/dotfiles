@@ -20,3 +20,6 @@ format = "using [$symbol$version]($style) "
 disabled = true
 format = "[$symbol$version]($style) "
 symbol = " "
+
+[java]
+style = "yellow bold"
