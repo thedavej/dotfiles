@@ -1,0 +1,28 @@
+# ~/.config/starship.toml
+
+[aws]
+disabled = true
+
+[battery]
+disabled = true
+
+[directory]
+truncate_to_repo = true
+
+[directory.substitutions]
+"~/Code/github" = "github.com"
+
+[git_branch]
+symbol = " "
+
+[nodejs]
+disabled = false
+format = "using [$symbol$version]($style) "
+
+[package]
+disabled = true
+format = "[$symbol$version]($style) "
+symbol = " "
+
+[java]
+style = "yellow bold"
