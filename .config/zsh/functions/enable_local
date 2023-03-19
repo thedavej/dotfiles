@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+# Enable local configs
+ln -sv $ZDOTDIR/local/*.zsh $ZDOTDIR/conf.d/
+echo "Local configs linked. Reload zsh to continue."

@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+# Shortcut for docker-compose, i.e. dc up -d
+docker compose $*

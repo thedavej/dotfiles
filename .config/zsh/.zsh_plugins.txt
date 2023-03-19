@@ -1,0 +1,17 @@
+# initial plugins
+mattmc3/zephyr path:plugins/zfunctions
+mattmc3/zephyr path:plugins/confd
+
+# Easy navigation
+jocelynmallon/zshmarks
+
+# Pre-cache environemnt loaders (pyenv)
+mroth/evalcache
+
+# OMZ plugins
+ohmyzsh/ohmyzsh path:lib/clipboard.zsh
+ohmyzsh/ohmyzsh path:plugins/copyfile
+ohmyzsh/ohmyzsh path:plugins/copypath
+ohmyzsh/ohmyzsh path:plugins/extract
+ohmyzsh/ohmyzsh path:plugins/magic-enter
+ohmyzsh/ohmyzsh path:plugins/z

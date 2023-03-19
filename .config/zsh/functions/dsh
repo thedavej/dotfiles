@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+# Open a Bash shell on the given container
+docker exec -it $* /bin/bash

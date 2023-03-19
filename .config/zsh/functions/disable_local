@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+# Disable local configs
+rm $ZDOTDIR/conf.d/*.local.zsh
+echo "Local configs unlinked. Reload zsh to continue."

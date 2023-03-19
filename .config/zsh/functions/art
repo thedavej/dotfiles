@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+# Shortcut for "php artisan", i.e. art tinker
+php artisan $*
