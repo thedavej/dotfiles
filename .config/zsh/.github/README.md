@@ -35,6 +35,7 @@ Set up your ~/.zshenv to point to your `$ZDOTDIR`:
 ```zsh
 # set the amazing ZDOTDIR variable
 export ZDOTDIR=~/.config/zsh
+```
 
 Clone this repo, and copy the zsh folder to your `$ZDOTDIR`
 
